@@ -25,7 +25,7 @@ public class AppTest {
 
     @Test
     public void testThis2() {
-        Assert.assertTrue(false);
+        Assert.assertEquals(3, c.minus(5,2));
     }
 }
 

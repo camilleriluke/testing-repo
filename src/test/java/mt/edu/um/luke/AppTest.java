@@ -27,5 +27,10 @@ public class AppTest {
     public void testThis2() {
         Assert.assertEquals(3, c.minus(5,2));
     }
+
+    @Test
+    public void testTimes() {
+        Assert.assertEquals(8, c.times(4,2));
+    }
 }
 

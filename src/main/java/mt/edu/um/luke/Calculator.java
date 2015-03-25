@@ -17,4 +17,8 @@ public class Calculator {
     public int times(int i, int i1) {
         return i * i1;
     }
+
+    public double sqrt(double i) {
+        return Math.sqrt(i);
+    }
 }

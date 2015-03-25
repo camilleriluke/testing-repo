@@ -32,5 +32,10 @@ public class AppTest {
     public void testTimes() {
         Assert.assertEquals(8, c.times(4,2));
     }
+
+    @Test
+    public void testSqrt() {
+        Assert.assertEquals(3, c.sqrt(9), 0.0003);
+    }
 }
 

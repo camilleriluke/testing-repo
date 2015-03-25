@@ -1,5 +1,6 @@
 package mt.edu.um.luke;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -11,6 +12,11 @@ public class AppTest {
     @Test
     public void testThis() {
         System.out.println("hello");
+    }
+
+    @Test
+    public void testThis2() {
+        Assert.assertTrue(false);
     }
 }
 

@@ -1,6 +1,7 @@
 package mt.edu.um.luke;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 /**
@@ -8,10 +9,18 @@ import org.junit.Test;
  */
 public class AppTest {
 
+    Calculator c;
+
+
+    @Before
+    public void setup() {
+        c = new Calculator();
+    }
+
 
     @Test
     public void testThis() {
-        System.out.println("hello");
+        Assert.assertEquals(4, c.add(2,2));
     }
 
     @Test

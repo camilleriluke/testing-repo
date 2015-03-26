@@ -9,7 +9,8 @@ import org.junit.Test;
  */
 public class AppTest {
 
-    Calculator c;
+    private Calculator c;
+
 
 
     @Before
@@ -20,7 +21,7 @@ public class AppTest {
 
     @Test
     public void testThis() {
-        Assert.assertEquals(5, c.add(2,2));
+        Assert.assertEquals(4, c.add(2,2));
     }
 
     @Test

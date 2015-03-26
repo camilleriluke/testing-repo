@@ -21,4 +21,8 @@ public class Calculator {
     public double sqrt(double i) {
         return Math.sqrt(i);
     }
+
+    public int doubleInt(int i) {
+        return i*2;
+    }
 }

@@ -20,7 +20,7 @@ public class AppTest {
 
     @Test
     public void testThis() {
-        Assert.assertEquals(4, c.add(2,2));
+        Assert.assertEquals(5, c.add(2,2));
     }
 
     @Test
